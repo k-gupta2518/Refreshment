@@ -1,0 +1,81 @@
+.navbar{
+    position:sticky;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafc;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+ .hero_text{
+    margin-left:410px ;
+    font-size: 50px;
+    position: relative;
+    z-index: 9999;
+    bottom: 290px;
+    
+ }
+ .head{
+    color: #c943c9;
+ }
+ body{
+    background-color: #e3cbe3;
+    color: black;
+    font-family: monospace;
+}
+main {
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    color: rgb(42, 20, 166);
+  }
+  .content {
+    position: absolute;
+    top: 85%;
+    width: 99%;
+   
+    background-color: rgb(218, 165, 218);
+    font-size: 30px;
+    
+  }
+  button {
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    border: 1px solid rgb(225, 224, 234);
+    background: transparent;
+    color: black;
+    border-radius: 5px;
+  }
+  button {
+    background-image: linear-gradient(
+    to right,
+    rgb(157, 157, 231) 0%,
+    rgb(174, 174, 230) 51%,
+    rgb(191, 191, 225) 100%
+  );
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1)
+      
+  }
+
+  
+  .reveal-btn {
+    border: none;
+    text-decoration: underline;
+    margin: 0;
+  }
+  
+  .reveal-btn:hover {
+    color: white;
+    background-color: transparent;
+  }
+  
