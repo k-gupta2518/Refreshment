@@ -9,15 +9,21 @@
       0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
  .hero_text{
-    margin-left:410px ;
-    font-size: 50px;
+    
+    font-size: 30px;
     position: relative;
+    left: 5%;
     z-index: 9999;
-    bottom: 290px;
+    bottom: 180px;
     
  }
- .head{
+ .caption{
+  width: 100%;
+  height: 100%;
+ }
+ .hero_img{
     color: #c943c9;
+    width: 100%;
  }
  body{
     background-color: #e3cbe3;
@@ -31,17 +37,18 @@ main {
   }
 
   p {
-    color: rgb(42, 20, 166);
+    color: rgb(148, 54, 128);
   }
   .content {
     position: absolute;
-    top: 85%;
+    top: 45%;
     width: 99%;
    
     background-color: rgb(234, 208, 230);
     font-size: 30px;
     
   }
+ 
   button {
     width: 200px;
     max-width: 100%;
@@ -78,4 +85,23 @@ main {
     color: white;
     background-color: transparent;
   }
+  @media   (min-width: 768px){
+    .hero_text{
+     font-size: 50px;
+     position: relative;
+     left: 25%;
+     z-index: 9999;
+     bottom: 700px;
+  }
+  .hero_img{
+    width: 100%;
+  }
+  .content {
+    position: absolute;
+    top: 85%;
+    width: 99%;
+    font-size: 30px;
+    
+  }
   
+}
